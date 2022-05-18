@@ -10,14 +10,13 @@ import javax.persistence.Table;
 @Table(name = "admin")
 public class AdminModel {
 
-    private Long id;
+    private Long id; // dinh nghia id
 
-    private String username;
+    private String username;// dinh nghia username
     private String password;
 
     public AdminModel() {
     }
-
 
     public AdminModel(Long id, String username, String password) {
         this.id = id;
